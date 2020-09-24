@@ -1,0 +1,1 @@
+cmd_/home/herculles/new-driver/driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/herculles/new-driver/driver.ko /home/herculles/new-driver/driver.o /home/herculles/new-driver/driver.mod.o;  true
